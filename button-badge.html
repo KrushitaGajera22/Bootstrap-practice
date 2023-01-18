@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button and Badge</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+</head>
+<body>
+<div class="container">
+    <h3>Buttons</h3>
+    <button type="button" class="btn btn-outline-primary btn-sm">Submit</button>
+    <button type="button" class="btn btn-secondary btn-sm active">Reset</button>
+    <button class="btn btn-info btn-sm">
+        <span class="spinner-border spinner-border-sm disabled"></span>
+        Loading..
+    </button>
+</div>
+<br>
+<div class="container">
+    <h5>button group with dropdown</h5>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary btn-sm">PHP</button>
+        <button type="button" class="btn btn-primary btn-sm">CSS</button>
+        <div class="btn-group"></div>
+            <button class="btn btn-primary btn-sm dropdown toggle">HTML</button>
+            <button type="button" class="btn btn-primary btn-sm dropdown-toggle dropdown-toggle-split" 
+                data-toggle="dropdown">
+                <span class="caret"></span>
+            </button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Intro</a>
+                    <a href="#" class="dropdown-item">Form</a>
+                </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div class="container">
+    <h5>Badge</h5>
+    <button type="button" class="btn btn-primary">
+        Messages <span class="badge badge-pill badge-secondary">6</span>
+    </button>
+</div>
+
+</body>
+</html>
